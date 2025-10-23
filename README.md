@@ -74,36 +74,44 @@ A comprehensive book recommendation system powered by machine learning and advan
 
 ### Prerequisites
 
-```bash
-pip install streamlit pandas numpy scikit-learn
-pip install elasticsearch scikit-surprise
-pip install tensorflow keras
-pip install matplotlib seaborn
-```
+- Python 3.8 or higher
+- Elasticsearch (for autocomplete feature)
+- Git
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/book-recommendation-system.git
+git clone https://github.com/gothamza/book-recommendation-system.git
 cd book-recommendation-system
 ```
 
-2. Install dependencies:
+2. Create a virtual environment (recommended):
+```bash
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set up Elasticsearch:
+4. Set up Elasticsearch:
    - Install and configure Elasticsearch
    - Update the Elasticsearch URL in `app.py` and `streamfront.py`
    - Index your book data
 
-4. Prepare data:
+5. Prepare data:
    - Place your processed data files (`df_books_users_processed.csv.gz`, `df_final_review.csv.gz`) in the project directory
    - Ensure all pickle files (`.pkl`) are present
 
-5. Run the application:
+6. Run the application:
 ```bash
 streamlit run streamfront.py
 ```

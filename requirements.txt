@@ -1,0 +1,39 @@
+# Web Framework
+streamlit>=1.28.0
+
+# Data Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+scikit-surprise>=1.1.3
+scipy>=1.11.0
+
+# Deep Learning (for CNN/VGG16)
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# Search Engine
+elasticsearch>=8.15.0
+
+# Web Scraping & HTML Parsing
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Image Processing
+pillow>=10.0.0
+
+# Progress Bars
+tqdm>=4.66.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Pickle/Serialization (built-in, listed for reference)
+# pickle - included in Python standard library
+
+# Optional: For Jupyter notebooks (if running locally)
+jupyter>=1.0.0
+ipykernel>=6.25.0
